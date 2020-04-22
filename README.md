@@ -44,6 +44,7 @@ Find the file `index.js` and complete the tasks until your tests are passing.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+A closure is when a function is nested within a parent function and has access to the stuff inside of the parent. This gives rise to private variables which can be used to store data.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -65,9 +66,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+the closure occurs at the anonymous function.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+It will always print Dan's name and the number could change to any number 1-6 every time this function is invoked.
 c. What is the lexical scope of `newRoll`? 
-
+the anonymous function returned by the personalDice function.
 ### Task 3 - Stretch Goals
 
 After you have completed the requirements, **create** a new file called `stretch.js` and practice more with closures. There are no tests for these problems.
